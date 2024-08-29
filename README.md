@@ -2,4 +2,3 @@
 
 I made a calculator with Python tkinter for rehabilitation at the end of summer vacation.
 
-develop ブランチ作成
