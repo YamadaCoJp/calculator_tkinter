@@ -62,7 +62,7 @@ class CalcGui():
     def button_placement(self, button_frame):
         for y, line in enumerate(BUTTONS, 1):
             for x, num in enumerate(line):
-                button = tk.Button(button_frame, text=num, font=("", 15), width=5, height=3, bg='ghost white')
+                button = tk.Button(button_frame, text=num, font=("", 15), width=6, height=3)
                 button.grid(row=y, column=x)
                 button.bind('<ButtonPress>', self.click_button)
 
